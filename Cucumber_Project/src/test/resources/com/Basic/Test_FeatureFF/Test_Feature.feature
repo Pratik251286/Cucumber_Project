@@ -19,11 +19,11 @@ Feature: Create Account in OrangeHR
 #And User click on save button
 
 Background: User on OrangeHR portal
-Given User need to be on OrangeHR login page.
+Given User need to be on OrangeHR login page 1.
 
 Scenario: Validate user and password
-When user enters following data
+When user enters following data 1
 |Username |Password|
 |Admin		|admin	 |
-And User click on Login button
+And User click on Login button 1
 
